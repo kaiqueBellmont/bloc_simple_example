@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:bloc_simple_example/blocs/imc/bloc.dart';
 
 class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
   @override
   HomePageState createState() => HomePageState();
 }
